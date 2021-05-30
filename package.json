@@ -1,11 +1,14 @@
 {
-  "name": "@revolist/vue-datagrid",
-  "version": "2.9.9",
+  "name": "@entestat/vue-datagrid",
+  "version": "2.9.14",
   "description": "Vue data grid spreadsheet",
   "main": "dist/vgrid.js",
   "scripts": {
     "build": "webpack --config ./.webpack/webpack.config.js",
     "serve": "webpack serve --config ./.webpack/webpack.dev.js"
+  },
+  "dependencies": {
+    "@entestat/revogrid2": "^2.9.14"
   },
   "keywords": [
     "spreadsheet",
@@ -48,8 +51,5 @@
     "webpack": "^5.1.3",
     "webpack-cli": "^4.1.0",
     "webpack-dev-server": "^3.11.0"
-  },
-  "dependencies": {
-    "@revolist/revogrid": "^2.9.6"
   }
 }

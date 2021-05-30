@@ -1,5 +1,5 @@
 import { Component } from "vue";
-import * as loader from '@revolist/revogrid/loader';
+import * as loader from '@entestat/revogrid2/loader';
 import vueGrid from './component';
 import { AsyncComponent } from "vue/types/options";
 import vueTemplate, {vueTemplateConstructor} from "./vue-template";

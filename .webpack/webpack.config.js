@@ -14,8 +14,8 @@ module.exports = {
   },
   externals: {
     vue: 'vue',
-    '@revolist/revogrid': '@revolist/revogrid',
-    '@revolist/revogrid/loader': '@revolist/revogrid/loader'
+    '@entestat/revogrid2': '@entestat/revogrid2',
+    '@entestat/revogrid2/loader': '@entestat/revogrid2/loader'
   },
   resolve: {
     extensions: [ '.tsx', '.ts', '.js' ],
